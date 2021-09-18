@@ -1,0 +1,17 @@
+.contentwrapper {
+    margin: 2px;
+    padding: 0%;
+}
+
+.header {
+    color: darkblue;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contactlinks {
+    border: 1px solid black;
+    
+    
+}
