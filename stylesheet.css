@@ -20,18 +20,15 @@ header {
 }
 
 header h1 {
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 0 0 0;
     font-size: 60px;
+    color: purple;
     font-style: italic;
-    color: maroon;
+    text-decoration: underline;
 }
 
 /* Navs */
-nav {
-
-}
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -52,6 +49,17 @@ nav#contactlinks {
 }
 
 /* Sections */
+.article {
+    background-color: lightcoral;
+    border: 5px maroon solid;
+    width: 50%;
+    margin: -3% 0 0 25%;
+    text-align: center;
+    color: navy;
+    font-size: 22px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .smoothies {
     background-color: rgb(238, 129, 238);
     border: solid 5px maroon;
@@ -105,6 +113,7 @@ button {
     font-weight: bold;
     color: navy;
 }
+
 
 /* Footers */
 .footer {
