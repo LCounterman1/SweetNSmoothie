@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-    <header>
-        <div class="contentwrapper">
+    <div class="contentwrapper">
+        <header>
             <h1>Sweet n' Smoothie</h1>
             <nav id="contactlinks">
                 <!--About/Contact Us Links-->
@@ -18,27 +18,52 @@
                     <li><button onclick="ContactUs">Contact Us</button></li>
                 </ul>
             </nav>
-            <div>
+            </header>
+            <div class="article">
                 <!--Article/Slide Show-->
+                <p>Welcome to Sweet and Smoothie!</p>
+                <p>Our smoothies are made from all natural ingredients and made fresh to order!</p>
             </div>
-    </header>
-        <section class="smoothies">
-            <h2>Smoothie Options</h2>
-            <div>
-       
-                <!--Fruit Smoothies-->
-            </div>
-            <div>
-                <!--Veggie Smoothies-->
-            </div>
-            <div>
-                <!--Smoothie of the Day-->
-            </div>
-        </section>
+            <div class="smoothies">
+                <h2>Smoothie Options</h2>
+                    <section class="options">
+                        <div>  
+                            <!--Fruit Smoothies-->
+                            <h5>Fruit Smoothies</h5>
+                            <img class="fruit" src="assets/fruitsmoothie.jfif"
+                            width="250" height="250"> 
+                            <button>Click Here</button>
+                        </div>
+                        <div>
+                            <!--Veggie Smoothies-->
+                            <h5>Veggie Smoothies</h5>
+                            <img class="veggie" src="assets/veggiesmoothie.jfif"
+                            width="250" height="250">
+                            <button>Click Here</button>
+                        </div>
+                        <div>
+                            <!--Wine Smoothie-->
+                            <h5>Adult Smoothies</h5>
+                            <img class="adult" src="assets/winesmoothie.jfif"
+                            width="250" height="250">
+                            <button>Click Here</button>
+                        </div> 
+            </section>
+        </div>
         <footer>
-            <nav>
+            <div class="footer">
                 <!--Follow Us On Links-->
-            </nav>
+                <h5>Follow Us On:</h5>
+                <nav class="follow">
+                    <img src="assets/facebook.png"
+                    width="40" height="40">
+                    <img src="assets/instagram.jfif"
+                    width="40" height="40">
+                    <img src="assets/twitter.jfif"
+                    width="40" height="40">
+                    <p class="copyright">&copy2021</p>
+                </nav>
+            </div>  
         </footer>
     </div>
 </body>

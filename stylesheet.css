@@ -1,16 +1,27 @@
 /* Main*/
-
+.contentwrapper {
+    background: url(assets/fruit2.jfif) no-repeat fixed top center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    
+}
+    
 
 /* Header */
 header {
-    padding: 125px;
-    margin: 0 0 0 0;
-    background: olivedrab url(/assets/fruit.jfif) center 0px;
+    background: url(assets/olive.jpg);
+    padding: 50px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 }
 
 header h1 {
     font-family: cursive;
-    margin: -38px 0px 0px 25px;
+    margin: 0 0 0 0;
     font-size: 60px;
     font-style: italic;
     color: maroon;
@@ -35,13 +46,82 @@ nav li {
 
 nav#contactlinks {
     float: right;
-    margin: -157px -100px 0 0;
-    padding: 5px;
-    background-color: khaki;
+    margin: -120px 0 0 0;
+    padding: 2px;
     height: 35px;
 }
 
 /* Sections */
+.smoothies {
+    background-color: rgb(238, 129, 238);
+    border: solid 5px maroon;
+    width: 70%;
+    margin: 5% 0 0 15%;
+}
+
+.options {
+    display: inline-flex;
+    margin: -5% 0 2% 15%;
+}
+
+h2 {
+    margin: 1% 0 0 2%;
+    color: navy;
+    font-family: cursive;
+    text-decoration-line: underline;
+    font-style: italic;
+    text-align: left;
+}
+
+h5 {
+    font-size: 18px;
+    color: navy;
+    font-family: cursive;
+    margin: 40% 0 5% 10%;
+}
+
+.fruit {
+    padding: 5px;
+    border: thin navy solid;
+}
+
+.veggie {
+    padding: 5px;
+    border: thin navy solid;
+}
+
+.adult {
+    padding: 5px;
+    border: thin navy solid;
+}
+
+button {
+    width: 90px;
+    height: 25px;
+    display: inline-flex;
+    position: inherit;
+    margin: 0 0 0 90px;
+    background: rgb(60, 238, 105);
+    font-weight: bold;
+    color: navy;
+}
 
 /* Footers */
+.footer {
+    background: url(assets/olive.jpg);
+    margin: -20% 0 0 0;
+  
+}
+
+.follow {
+    margin: -5% 0 0 10%;
+
+}
+
+.copyright {
+    font: 15px navy;
+    float: right;
+    margin: 0 10px 0 0;
+
+}
 
