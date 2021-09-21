@@ -19,13 +19,21 @@ header {
     -o-background-size: 100% 100%;
 }
 
+.fresh {
+    font-size: 20px;
+    color: navy;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
 header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 0 0 0;
     font-size: 60px;
-    color: purple;
-    font-style: italic;
-    text-decoration: underline;
+    color: navy;
+    font-weight: bold;
+    font-style: oblique;
+
 }
 
 /* Navs */
